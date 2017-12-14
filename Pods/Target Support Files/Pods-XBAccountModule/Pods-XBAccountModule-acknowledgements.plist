@@ -36,7 +36,7 @@ THE SOFTWARE.</string>
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>XBRoute</string>
+			<string>XBPublickModule</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

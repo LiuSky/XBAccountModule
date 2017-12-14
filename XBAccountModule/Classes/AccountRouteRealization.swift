@@ -8,9 +8,9 @@
 
 import Foundation
 import UIKit
-import XBRoute
+import XBPublickModule
 
-//@NameSpace(AccountModule)
+//@NameSpace(XBAccountModule)
 //
 
 /// MARK - 用户路由实现对象

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## XBRoute
+## XBPublickModule
 
 Copyright (c) 2011-2017 GitLab B.V.
 

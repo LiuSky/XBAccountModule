@@ -16,6 +16,7 @@
 		336B3C951FE14EAB00ADADAB /* AccountRouteRealization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B3C8F1FE14EAB00ADADAB /* AccountRouteRealization.swift */; };
 		336B3C961FE14EAB00ADADAB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B3C921FE14EAB00ADADAB /* LoginVC.swift */; };
 		336B3C971FE14EAB00ADADAB /* RetrievePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B3C931FE14EAB00ADADAB /* RetrievePasswordVC.swift */; };
+		338ECC7D1FE20E44007A2F51 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338ECC7C1FE20E44007A2F51 /* UIViewController+TopMostViewController.swift */; };
 		7F2F0F12D59CE1C1B1143E53 /* Pods_XBAccountModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FA75598C0EDFE23D07E223 /* Pods_XBAccountModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		336B3C8F1FE14EAB00ADADAB /* AccountRouteRealization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRouteRealization.swift; sourceTree = "<group>"; };
 		336B3C921FE14EAB00ADADAB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		336B3C931FE14EAB00ADADAB /* RetrievePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrievePasswordVC.swift; sourceTree = "<group>"; };
+		338ECC7C1FE20E44007A2F51 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
 		DB7C2C4807B88CD6EAD72C29 /* Pods-XBAccountModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBAccountModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XBAccountModule/Pods-XBAccountModule.debug.xcconfig"; sourceTree = "<group>"; };
 		E4FA75598C0EDFE23D07E223 /* Pods_XBAccountModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBAccountModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,9 +85,10 @@
 		336B3C8C1FE14EAB00ADADAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				336B3C8D1FE14EAB00ADADAB /* VM */,
+				338ECC7C1FE20E44007A2F51 /* UIViewController+TopMostViewController.swift */,
 				336B3C8E1FE14EAB00ADADAB /* AccountModuleApi.swift */,
 				336B3C8F1FE14EAB00ADADAB /* AccountRouteRealization.swift */,
+				336B3C8D1FE14EAB00ADADAB /* VM */,
 				336B3C901FE14EAB00ADADAB /* M */,
 				336B3C911FE14EAB00ADADAB /* V */,
 			);
@@ -210,11 +213,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XBAccountModule/Pods-XBAccountModule-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XBRoute/XBRoute.framework",
+				"${BUILT_PRODUCTS_DIR}/XBPublickModule/XBPublickModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XBRoute.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XBPublickModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338ECC7D1FE20E44007A2F51 /* UIViewController+TopMostViewController.swift in Sources */,
 				336B3C7D1FE14E4600ADADAB /* ViewController.swift in Sources */,
 				336B3C941FE14EAB00ADADAB /* AccountModuleApi.swift in Sources */,
 				336B3C951FE14EAB00ADADAB /* AccountRouteRealization.swift in Sources */,

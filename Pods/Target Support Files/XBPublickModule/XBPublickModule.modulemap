@@ -1,0 +1,6 @@
+framework module XBPublickModule {
+  umbrella header "XBPublickModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@ use_frameworks!
 #根据版本号来更新
 target :XBAccountModule  do
 
-pod 'XBRoute'
+pod 'XBPublickModule'
 
 
 end

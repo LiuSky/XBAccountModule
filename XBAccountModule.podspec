@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'XBAccountModule'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '用户模块'
 
   s.description      = <<-DESC
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source_files = ['XBAccountModule/Classes/*.swift', "XBAccountModule/Classes/V/*.swift"] 
 
   s.frameworks = 'Foundation'
-  s.dependency 'XBRoute', '~> 1.0.1'
+  s.dependency 'XBPublickModule', '~> 0.0.1'
 end
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double XBRouteVersionNumber;
-FOUNDATION_EXPORT const unsigned char XBRouteVersionString[];
+FOUNDATION_EXPORT double XBPublickModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char XBPublickModuleVersionString[];
 
