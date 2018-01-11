@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'XBAccountModule'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = '用户模块'
 
   s.description      = <<-DESC

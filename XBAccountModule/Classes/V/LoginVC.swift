@@ -20,7 +20,8 @@ public class LoginVC: UIViewController {
         self.view.backgroundColor = .white
         logoImageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         logoImageView.center = self.view.center
-        logoImageView.image = UIImage(named: "Logo")
+        let bundle = Bundle(for: self.classForCoder)
+        logoImageView.image = UIImage(named: "Logo", in: bundle, compatibleWith: nil)
         self.view.addSubview(logoImageView)
     }
 
