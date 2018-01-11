@@ -11,10 +11,16 @@ import UIKit
 /// MARK - 用户登陆控制器
 public class LoginVC: UIViewController {
 
+    private lazy var logoImageView = UIImageView(image: #imageLiteral(resourceName: "Logo"))
+    
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "登陆"
         self.view.backgroundColor = .white
+        logoImageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        logoImageView.center = self.view.center
+        self.view.addSubview(logoImageView)
     }
 
     override public func didReceiveMemoryWarning() {
