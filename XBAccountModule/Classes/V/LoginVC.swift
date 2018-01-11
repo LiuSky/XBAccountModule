@@ -11,7 +11,7 @@ import UIKit
 /// MARK - 用户登陆控制器
 public class LoginVC: UIViewController {
 
-    private lazy var logoImageView = UIImageView(image: #imageLiteral(resourceName: "Logo"))
+    private lazy var logoImageView = UIImageView()
     
     
     override public func viewDidLoad() {
@@ -20,6 +20,7 @@ public class LoginVC: UIViewController {
         self.view.backgroundColor = .white
         logoImageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         logoImageView.center = self.view.center
+        logoImageView.image = UIImage(named: "Logo")
         self.view.addSubview(logoImageView)
     }
 
