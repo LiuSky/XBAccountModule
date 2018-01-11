@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'XBAccountModule'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '用户模块'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = ['XBAccountModule/Classes/*.swift', "XBAccountModule/Classes/V/*.swift"] 
-
+  s.resources = ['XBAccountModule/*.xcassets']
   s.frameworks = 'Foundation'
   s.dependency 'XBPublickModule', '~> 0.0.1'
 end
